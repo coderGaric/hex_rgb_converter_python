@@ -1,6 +1,8 @@
 import re
 from time import sleep
 
+from logo import logo
+
 
 hexadecimal_table_str = {
     "0": 0, "1": 1, "2": 2, "3": 3, "4": 4,
@@ -68,5 +70,5 @@ def hex_rgb_converter():
         
     return to_convert[1]
 
-
+print(logo)
 print(hex_rgb_converter())
